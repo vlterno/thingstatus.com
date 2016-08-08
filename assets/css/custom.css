@@ -1,5 +1,10 @@
- body { 
- 	font-family: 'Roboto', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
- 	color: #222; 
- 	font-weight: 300;
- }
+html, body {
+	height: 100%;
+}
+
+body { 
+	font-family: 'Roboto', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #222; 
+	font-weight: 300;
+	background-color: #fafafa; 	
+}
