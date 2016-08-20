@@ -3,8 +3,29 @@ html, body {
 }
 
 body { 
-	font-family: 'Roboto', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #222; 
-	font-weight: 300;
 	background-color: #fafafa; 	
+}
+
+.button-col {
+	position: absolute;
+    top: 35%;
+    right: 0;
+    text-align: center;
+
+}
+
+.button-sharing {
+	font-size: 2em;
+	color: #737373;
+}
+
+.content {
+	padding-top: 30%;
+	text-align: center;
+}
+
+.load-icon {
+	font-size: 1em;
+	padding-top: 50px;
 }

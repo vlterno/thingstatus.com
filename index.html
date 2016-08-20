@@ -8,18 +8,41 @@
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/skeleton.css">
+  <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/custom.css">
-<!--   <link rel="stylesheet" href="assets/css/animate.css"> -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
 </head>
 <body>
+<div class="one col button-col">
+    <div class="row">
+      <a class="button-sharing" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://thingstatus.com/" href="https://twitter.com/intent/tweet?text=cool site&amp;url=http://thingstatus.com/&amp;">
+        <span class="icon">
+          <i class="fa fa-facebook"></i>
+        </span>
+      </a>
+    </div>
+    <div class="row">
+      <a class="button-sharing" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://thingstatus.com/" href="https://twitter.com/intent/tweet?text=cool site&amp;url=http://thingstatus.com/&amp;">
+        <span class="icon">
+          <i class="fa fa-twitter"></i>
+        </span>
+      </a>
+    </div>
+    <div class="row">
+      <a class="button-sharing" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://thingstatus.com/" href="https://twitter.com/intent/tweet?text=cool site&amp;url=http://thingstatus.com/&amp;">
+        <span class="icon">
+          <i class="fa fa-vk"></i>
+        </span>
+      </a>
+    </div>
+  </div>
 
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>It's <span id="time">21:37</span> but you've done nothing today.</h4>
+      <div class="twelve col content">
+        <h4>It's <span id="time">21:37</span> and you still did nothing today.</h4>
+        <p class="load-icon"><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></p>
       </div>
     </div>
   </div>
@@ -32,36 +55,32 @@
   </script>
 
   <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
+  <script type="text/javascript">
     (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter38947265 = new Ya.Metrika({
-                    id:38947265,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
+      (w[c] = w[c] || []).push(function() {
+        try {
+          w.yaCounter38947265 = new Ya.Metrika({
+            id:38947265,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+          });
+        } catch(e) { }
+      });
 
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
+      var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
+      if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/38947265" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57aa3746497ccd67"></script>
-
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/38947265" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
 </body>
 </html>
