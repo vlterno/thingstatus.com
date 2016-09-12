@@ -29,3 +29,8 @@ body {
 	font-size: 1em;
 	padding-top: 50px;
 }
+
+@media (max-width: 650px) {
+	.load-icon {padding-top: 15%;}
+	.button-col {top: 55%;}
+}
